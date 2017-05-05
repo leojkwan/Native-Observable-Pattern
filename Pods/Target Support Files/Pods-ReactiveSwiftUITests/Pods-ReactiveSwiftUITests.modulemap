@@ -1,0 +1,6 @@
+framework module Pods_ReactiveSwiftUITests {
+  umbrella header "Pods-ReactiveSwiftUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

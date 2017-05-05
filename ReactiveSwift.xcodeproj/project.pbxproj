@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5462760CEBA87A56689FD101 /* Pods_ReactiveSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F5B4DD9D7A910C7A58F0940 /* Pods_ReactiveSwiftUITests.framework */; };
+		69B043343065086EFEABE29B /* Pods_ReactiveSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5286C7D706E1B6715ADF2AA5 /* Pods_ReactiveSwiftTests.framework */; };
+		77DB7E43EDADC3586E7BD20E /* Pods_ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F50F351332245CD8895F7713 /* Pods_ReactiveSwift.framework */; };
+		946F11E71EB95572006039D7 /* ReactiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946F11E61EB95572006039D7 /* ReactiveViewController.swift */; };
+		946F11E91EB98292006039D7 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 946F11E81EB98292006039D7 /* Observable.swift */; };
+		94B750651EBC4BB1005B481F /* Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B750641EBC4BB1005B481F /* Disposable.swift */; };
 		94FFE6631EB8B73300887907 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FFE6621EB8B73300887907 /* AppDelegate.swift */; };
 		94FFE6651EB8B73300887907 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FFE6641EB8B73300887907 /* ViewController.swift */; };
 		94FFE6681EB8B73300887907 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94FFE6661EB8B73300887907 /* Main.storyboard */; };
@@ -34,6 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		298E39760E4941DDF57D5BFD /* Pods-ReactiveSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveSwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveSwiftUITests/Pods-ReactiveSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D1B81BC2625AE3724D9E05C /* Pods-ReactiveSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveSwiftTests/Pods-ReactiveSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5286C7D706E1B6715ADF2AA5 /* Pods_ReactiveSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F5B4DD9D7A910C7A58F0940 /* Pods_ReactiveSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70D91AD4D7E4C5F84E92EDAB /* Pods-ReactiveSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveSwiftTests/Pods-ReactiveSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		8F40E80302E2A16C47ED4641 /* Pods-ReactiveSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveSwiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveSwiftUITests/Pods-ReactiveSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		946F11E61EB95572006039D7 /* ReactiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactiveViewController.swift; sourceTree = "<group>"; };
+		946F11E81EB98292006039D7 /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		94B750641EBC4BB1005B481F /* Disposable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Disposable.swift; sourceTree = "<group>"; };
 		94FFE65F1EB8B73300887907 /* ReactiveSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94FFE6621EB8B73300887907 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94FFE6641EB8B73300887907 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +62,9 @@
 		94FFE67E1EB8B73300887907 /* ReactiveSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94FFE6821EB8B73300887907 /* ReactiveSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveSwiftUITests.swift; sourceTree = "<group>"; };
 		94FFE6841EB8B73300887907 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		994975903C77D6FDE913F1F3 /* Pods-ReactiveSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveSwift/Pods-ReactiveSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		A5EFB29EDA63B38DB6E40877 /* Pods-ReactiveSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveSwift/Pods-ReactiveSwift.release.xcconfig"; sourceTree = "<group>"; };
+		F50F351332245CD8895F7713 /* Pods_ReactiveSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77DB7E43EDADC3586E7BD20E /* Pods_ReactiveSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69B043343065086EFEABE29B /* Pods_ReactiveSwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +88,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5462760CEBA87A56689FD101 /* Pods_ReactiveSwiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2AE2AEE7A1356ADD955E9637 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F50F351332245CD8895F7713 /* Pods_ReactiveSwift.framework */,
+				5286C7D706E1B6715ADF2AA5 /* Pods_ReactiveSwiftTests.framework */,
+				5F5B4DD9D7A910C7A58F0940 /* Pods_ReactiveSwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87A792362099E7950E5AABC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				994975903C77D6FDE913F1F3 /* Pods-ReactiveSwift.debug.xcconfig */,
+				A5EFB29EDA63B38DB6E40877 /* Pods-ReactiveSwift.release.xcconfig */,
+				3D1B81BC2625AE3724D9E05C /* Pods-ReactiveSwiftTests.debug.xcconfig */,
+				70D91AD4D7E4C5F84E92EDAB /* Pods-ReactiveSwiftTests.release.xcconfig */,
+				298E39760E4941DDF57D5BFD /* Pods-ReactiveSwiftUITests.debug.xcconfig */,
+				8F40E80302E2A16C47ED4641 /* Pods-ReactiveSwiftUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		94FFE6561EB8B73300887907 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +125,8 @@
 				94FFE6761EB8B73300887907 /* ReactiveSwiftTests */,
 				94FFE6811EB8B73300887907 /* ReactiveSwiftUITests */,
 				94FFE6601EB8B73300887907 /* Products */,
+				87A792362099E7950E5AABC3 /* Pods */,
+				2AE2AEE7A1356ADD955E9637 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +145,9 @@
 			children = (
 				94FFE6621EB8B73300887907 /* AppDelegate.swift */,
 				94FFE6641EB8B73300887907 /* ViewController.swift */,
+				94B750641EBC4BB1005B481F /* Disposable.swift */,
+				946F11E81EB98292006039D7 /* Observable.swift */,
+				946F11E61EB95572006039D7 /* ReactiveViewController.swift */,
 				94FFE6661EB8B73300887907 /* Main.storyboard */,
 				94FFE6691EB8B73300887907 /* Assets.xcassets */,
 				94FFE66B1EB8B73300887907 /* LaunchScreen.storyboard */,
@@ -132,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94FFE6871EB8B73300887907 /* Build configuration list for PBXNativeTarget "ReactiveSwift" */;
 			buildPhases = (
+				9AB33A433216D5C0A5BDB5B8 /* [CP] Check Pods Manifest.lock */,
 				94FFE65B1EB8B73300887907 /* Sources */,
 				94FFE65C1EB8B73300887907 /* Frameworks */,
 				94FFE65D1EB8B73300887907 /* Resources */,
+				9FCD22D3FCAB0DC459FC80A5 /* [CP] Embed Pods Frameworks */,
+				079CCDFDB486ED1DA4897257 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +201,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94FFE68A1EB8B73300887907 /* Build configuration list for PBXNativeTarget "ReactiveSwiftTests" */;
 			buildPhases = (
+				0C2971DEB4FC2FF218A1D0E9 /* [CP] Check Pods Manifest.lock */,
 				94FFE66F1EB8B73300887907 /* Sources */,
 				94FFE6701EB8B73300887907 /* Frameworks */,
 				94FFE6711EB8B73300887907 /* Resources */,
+				10E805ACB8A1B450B42373DB /* [CP] Embed Pods Frameworks */,
+				9F138539E20E8565A953C01B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +222,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94FFE68D1EB8B73300887907 /* Build configuration list for PBXNativeTarget "ReactiveSwiftUITests" */;
 			buildPhases = (
+				DBED6DE74211F92609F68F95 /* [CP] Check Pods Manifest.lock */,
 				94FFE67A1EB8B73300887907 /* Sources */,
 				94FFE67B1EB8B73300887907 /* Frameworks */,
 				94FFE67C1EB8B73300887907 /* Resources */,
+				23875E57EF891E4943FFE1D4 /* [CP] Embed Pods Frameworks */,
+				43FEADE09526D9BB7E4A880F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,13 +315,154 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		079CCDFDB486ED1DA4897257 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveSwift/Pods-ReactiveSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0C2971DEB4FC2FF218A1D0E9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		10E805ACB8A1B450B42373DB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveSwiftTests/Pods-ReactiveSwiftTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23875E57EF891E4943FFE1D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveSwiftUITests/Pods-ReactiveSwiftUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43FEADE09526D9BB7E4A880F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveSwiftUITests/Pods-ReactiveSwiftUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AB33A433216D5C0A5BDB5B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9F138539E20E8565A953C01B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveSwiftTests/Pods-ReactiveSwiftTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FCD22D3FCAB0DC459FC80A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReactiveSwift/Pods-ReactiveSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBED6DE74211F92609F68F95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		94FFE65B1EB8B73300887907 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				946F11E91EB98292006039D7 /* Observable.swift in Sources */,
+				946F11E71EB95572006039D7 /* ReactiveViewController.swift in Sources */,
 				94FFE6651EB8B73300887907 /* ViewController.swift in Sources */,
 				94FFE6631EB8B73300887907 /* AppDelegate.swift in Sources */,
+				94B750651EBC4BB1005B481F /* Disposable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,6 +614,7 @@
 		};
 		94FFE6881EB8B73300887907 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 994975903C77D6FDE913F1F3 /* Pods-ReactiveSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DWCYJ9H353;
@@ -428,6 +628,7 @@
 		};
 		94FFE6891EB8B73300887907 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5EFB29EDA63B38DB6E40877 /* Pods-ReactiveSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = DWCYJ9H353;
@@ -441,6 +642,7 @@
 		};
 		94FFE68B1EB8B73300887907 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D1B81BC2625AE3724D9E05C /* Pods-ReactiveSwiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +658,7 @@
 		};
 		94FFE68C1EB8B73300887907 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70D91AD4D7E4C5F84E92EDAB /* Pods-ReactiveSwiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +674,7 @@
 		};
 		94FFE68E1EB8B73300887907 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 298E39760E4941DDF57D5BFD /* Pods-ReactiveSwiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = DWCYJ9H353;
@@ -485,6 +689,7 @@
 		};
 		94FFE68F1EB8B73300887907 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F40E80302E2A16C47ED4641 /* Pods-ReactiveSwiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = DWCYJ9H353;
@@ -516,6 +721,7 @@
 				94FFE6891EB8B73300887907 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94FFE68A1EB8B73300887907 /* Build configuration list for PBXNativeTarget "ReactiveSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +730,7 @@
 				94FFE68C1EB8B73300887907 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		94FFE68D1EB8B73300887907 /* Build configuration list for PBXNativeTarget "ReactiveSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +739,7 @@
 				94FFE68F1EB8B73300887907 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
